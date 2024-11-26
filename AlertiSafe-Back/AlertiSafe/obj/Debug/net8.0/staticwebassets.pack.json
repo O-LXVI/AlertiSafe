@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\manub\\Desktop\\Proyecto C#\\AlertiSafe-Front\\AlertiSafe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AlertiSafe.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AlertiSafe.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\manub\\Desktop\\Proyecto C#\\AlertiSafe-Front\\AlertiSafe\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\manub\\Desktop\\Proyecto C#\\AlertiSafe-Front\\AlertiSafe\\wwwroot\\bootstrap\\CSS\\Estilos.css",
+      "PackagePath": "staticwebassets\\bootstrap\\CSS\\Estilos.css"
+    },
+    {
+      "Id": "C:\\Users\\manub\\Desktop\\Proyecto C#\\AlertiSafe-Front\\AlertiSafe\\wwwroot\\bootstrap\\Js\\Scripts.js",
+      "PackagePath": "staticwebassets\\bootstrap\\Js\\Scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\manub\\Desktop\\Proyecto C#\\AlertiSafe-Front\\AlertiSafe\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\manub\\Desktop\\Proyecto C#\\AlertiSafe-Front\\AlertiSafe\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\manub\\Desktop\\Proyecto C#\\AlertiSafe-Front\\AlertiSafe\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AlertiSafe.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AlertiSafe.props",
+      "PackagePath": "build\\AlertiSafe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AlertiSafe.props",
+      "PackagePath": "buildMultiTargeting\\AlertiSafe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AlertiSafe.props",
+      "PackagePath": "buildTransitive\\AlertiSafe.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

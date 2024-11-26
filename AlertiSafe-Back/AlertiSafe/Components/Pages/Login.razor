@@ -1,0 +1,46 @@
+﻿@page "/"
+@using AlertiSafe.Modelo
+@using Microsoft.AspNetCore.Components
+@inject NavigationManager Navigation
+@inject IdentifierContext DbContext
+@using Microsoft.EntityFrameworkCore
+
+<MudContainer MaxWidth="MaxWidth.ExtraSmall" Class="mt-6">
+    <MudPaper Class="pa-4">
+        <MudText Typo="Typo.h5" Align="Align.Center">Inicio de Sesión</MudText>
+
+        <MudForm @ref="_form" >
+            <MudTextField Label="Usuario" @bind-Value="userName" Required="true" />
+            <MudTextField Label="Contraseña" @bind-Value="password" InputType="InputType.Password" Required="true" />
+
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="log">Entrar</MudButton>
+        </MudForm>
+        @if (Error != null)
+        {
+            <MudText Typo="Typo.body2" Color="Color.Error">@Error</MudText>
+        }
+    </MudPaper>
+</MudContainer>
+
+@code {
+    private string? userName { get; set; }
+    private string? password { get; set; }
+    private MudForm? _form;
+    private string? Error;
+
+    private async Task log()
+    {
+        var usuario = await DbContext.Usuarios
+            .Where(u => u.Email == userName)
+            .FirstOrDefaultAsync();
+
+        if (usuario != null && usuario.contrasenia == password)
+        {
+            Navigation.NavigateTo("/home");
+        }
+        else
+        {
+            Error = "Usuario o contraseña incorrectos.";
+        }
+    }
+}
